@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
-import { ProtectedRoute } from './components/ProtectedRoute';
-import { AdminRoute } from './components/AdminRoute';
+import  ProtectedRoute  from './components/ProtectedRoute';
+import  AdminRoute from './components/AdminRoute';
 
 // Pages
 import HomePage from './pages/HomePage';
